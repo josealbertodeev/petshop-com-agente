@@ -10,9 +10,9 @@
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![GPTMaker AI](https://img.shields.io/badge/GPTMaker-AI_Agent-blueviolet?style=for-the-badge&logo=ai&logoColor=white)](https://gptmaker.ai/)
 
-[🚀 Demo ao Vivo](#) • [📋 Funcionalidades](#funcionalidades) • [⚡ Instalação](#instalação) • [🛠️ Tecnologias](#tecnologias)
-
 </div>
+
+<img width="1350" height="572" alt="Screenshot_3" src="https://github.com/user-attachments/assets/6f8804bd-39f7-4637-b928-679447e2ed8b" />
 
 ## 📋 Sobre o Projeto
 
@@ -147,26 +147,6 @@ O site é totalmente responsivo e foi testado em:
 - 📟 **Tablet** - 768px até 1024px
 - 💻 **Desktop** - 1024px até 1920px+
 - 🖥️ **Ultrawide** - 1920px+
-
-## 🤝 Como Contribuir
-
-1. Faça um fork do projeto
-2. Crie uma branch para sua feature (`git checkout -b feature/nova-feature`)
-3. Commit suas mudanças (`git commit -m 'Adiciona nova feature'`)
-4. Push para a branch (`git push origin feature/nova-feature`)
-5. Abra um Pull Request
-
-## 📄 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
-
-## 🙏 Agradecimentos
-
-- [Unsplash](https://unsplash.com) pelas imagens de alta qualidade
-- [Google Fonts](https://fonts.google.com) pelas fontes modernas
-- [GPTMaker](https://gptmaker.ai) pela tecnologia de IA
-- Comunidade dev por inspirações e feedbacks
 
 ---
 
