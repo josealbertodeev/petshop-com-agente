@@ -9,8 +9,6 @@
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![GPTMaker AI](https://img.shields.io/badge/GPTMaker-AI_Agent-blueviolet?style=for-the-badge&logo=ai&logoColor=white)](https://gptmaker.ai/)
 
-[🚀 Demo ao Vivo](https://petshop-com-agente.vercel.app/) • [📋 Funcionalidades](#funcionalidades) • [⚡ Instalação](#instalação) • [🛠️ Tecnologias](#tecnologias)
-
 </div>
 
 <img width="1350" height="572" alt="Screenshot_3" src="https://github.com/user-attachments/assets/6f8804bd-39f7-4637-b928-679447e2ed8b" />
@@ -67,7 +65,7 @@
 
 ### Inteligência Artificial
 - **GPTMaker AI** - Agente conversacional inteligente
-  - Atendimento automatizado 24/7
+  - Atendimento automatizado 
   - Respostas contextuais sobre serviços
   - Interface flutuante não-intrusiva
 
@@ -123,13 +121,6 @@ const WHATSAPP_NUMBER = '5511987654321';
 const WHATSAPP_MESSAGE = 'Olá! Gostaria de agendar um serviço para meu pet.';
 ```
 
-### GPTMaker AI
-Para configurar seu próprio agente IA, substitua o ID no `index.html`:
-
-```html
-<script async src="https://app.gptmaker.ai/widget/SEU_ID_AQUI/float.js"></script>
-```
-
 ## 📁 Estrutura do Projeto
 
 ```
@@ -156,17 +147,6 @@ O site é totalmente responsivo e foi testado em:
 3. Commit suas mudanças (`git commit -m 'Adiciona nova feature'`)
 4. Push para a branch (`git push origin feature/nova-feature`)
 5. Abra um Pull Request
-
-## 📄 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
-## 🙏 Agradecimentos
-
-- [Unsplash](https://unsplash.com) pelas imagens de alta qualidade
-- [Google Fonts](https://fonts.google.com) pelas fontes modernas
-- [GPTMaker](https://gptmaker.ai) pela tecnologia de IA
-- Comunidade dev por inspirações e feedbacks
 
 ---
 
