@@ -2,17 +2,18 @@
 
 <div align="center">
 
-
-**Uma landing page moderna e responsiva para pet shop e clínica veterinária**
+**Uma landing page moderna e responsiva para pet shop e clínica veterinária com agente de IA**
 
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![GPTMaker AI](https://img.shields.io/badge/GPTMaker-AI_Agent-blueviolet?style=for-the-badge&logo=ai&logoColor=white)](https://gptmaker.ai/)
 
-[🚀 Demo ao Vivo](#) • [📋 Funcionalidades](#funcionalidades) • [⚡ Instalação](#instalação) • [🛠️ Tecnologias](#tecnologias)
+[🚀 Demo ao Vivo](https://petshop-com-agente.vercel.app/) • [📋 Funcionalidades](#funcionalidades) • [⚡ Instalação](#instalação) • [🛠️ Tecnologias](#tecnologias)
 
 </div>
+
+<img width="1350" height="572" alt="Screenshot_3" src="https://github.com/user-attachments/assets/6f8804bd-39f7-4637-b928-679447e2ed8b" />
 
 ## 📋 Sobre o Projeto
 
@@ -160,7 +161,6 @@ O site é totalmente responsivo e foi testado em:
 
 Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
-
 ## 🙏 Agradecimentos
 
 - [Unsplash](https://unsplash.com) pelas imagens de alta qualidade
@@ -169,6 +169,8 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 - Comunidade dev por inspirações e feedbacks
 
 ---
+
+Acesse o projeto aqui [Link](https://petshop-com-agente.vercel.app/)
 
 <div align="center">
 
