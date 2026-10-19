@@ -1,159 +1,81 @@
-# 🐾 Patinhas Pet Shop & Vet
+# Patinhas Pet Shop & Vet: landing page com agente de IA
 
-<div align="center">
+Landing page para um pet shop e clínica veterinária fictícios, com um agente de IA que responde dúvidas dos visitantes em um chat flutuante. Feita com HTML, CSS e JavaScript puro, com o agente integrado via [GPTMaker](https://gptmaker.ai/).
 
-**Uma landing page moderna e responsiva para pet shop e clínica veterinária com agente de IA**
+**[Ver o projeto online](https://petshop-com-agente.vercel.app)**
 
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![GPTMaker AI](https://img.shields.io/badge/GPTMaker-AI_Agent-blueviolet?style=for-the-badge&logo=ai&logoColor=white)](https://gptmaker.ai/)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![GPTMaker](https://img.shields.io/badge/GPTMaker-Agente_de_IA-blueviolet?style=for-the-badge)
 
-</div>
+<img src="https://github.com/user-attachments/assets/6f8804bd-39f7-4637-b928-679447e2ed8b" alt="Página inicial do pet shop" width="800">
 
-<img width="1350" height="572" alt="Screenshot_3" src="https://github.com/user-attachments/assets/6f8804bd-39f7-4637-b928-679447e2ed8b" />
+## Agente de IA
 
-## 📋 Sobre o Projeto
+O site tem um chat flutuante com um agente criado no GPTMaker, que responde perguntas sobre serviços, horários e atendimento do pet shop. O agente é configurado na plataforma e incorporado ao site com um script:
 
-**Patinhas Pet Shop & Vet** é uma landing page completa e moderna desenvolvida para pet shops e clínicas veterinárias. O site apresenta uma interface atraente, totalmente responsiva e otimizada para conversão de clientes.
+```html
+<script async src="https://app.gptmaker.ai/widget/<ID-DO-AGENTE>/float.js"></script>
+```
 
-### ✨ Características Principais
+O carregamento é `async`, então o widget não atrasa a renderização da página.
 
-- 🎨 **Design Moderno** - Interface limpa e profissional
-- 📱 **Totalmente Responsivo** - Funciona perferfeitamente em todos os dispositivos
-- ⚡ **Performance Otimizada** - Carregamento rápido e eficiente
-- 🤖 **IA Integrada** - Agente inteligente GPTMaker para atendimento automatizado
-- 🎯 **Foco na Conversão** - Elementos estratégicos para gerar leads
-- ♿ **Acessível** - Seguindo boas práticas de acessibilidade web
+## Seções
 
-## 🚀 Funcionalidades
+- **Hero** com chamada principal
+- **Sobre nós** com galeria de fotos
+- **Serviços** em cards
+- **Diferenciais** e **vantagens**
+- **Depoimentos**
+- **FAQ** em acordeão
+- **Contato** com endereço, telefones, e-mail e horários
 
-### 🏠 Seções da Landing Page
+## Interações em JavaScript
 
-- **Hero Section** - Banner principal com call-to-action
-- **Sobre Nós** - História e diferenciais da empresa
-- **Serviços** - Grid completo de serviços oferecidos
-- **Destaques** - Por que escolher a Patinhas Pet
-- **Benefícios** - Vantagens exclusivas para clientes
-- **Depoimentos** - Avaliações reais de clientes satisfeitos
-- **FAQ** - Perguntas frequentes com acordeão interativo
-- **Contato** - Informações completas e formulário
+- **Menu mobile** que fecha ao clicar em um link, ao clicar fora ou com a tecla `Esc`. Enquanto o menu está aberto, a rolagem da página fica travada.
+- **Rolagem suave** que desconta a altura do header fixo, para o título da seção não ficar escondido atrás dele.
+- **Link ativo no menu** de acordo com a seção visível.
+- **Header que encolhe** ao rolar a página.
+- **FAQ em acordeão:** abrir uma pergunta fecha as outras.
+- **Animação de entrada** dos cards com `IntersectionObserver`.
 
-### 🎯 Recursos Interativos
+## Tecnologias
 
-- ✅ Menu hamburger responsivo
-- ✅ Navegação suave entre seções
-- ✅ Acordeão no FAQ
-- ✅ Botões de WhatsApp integrados
-- ✅ Galeria de imagens
-- ✅ Animações CSS sutis
-- ✅ **Agente IA GPTMaker** para suporte 24/7
+- HTML5
+- CSS3 (Grid, Flexbox, custom properties, media queries)
+- JavaScript puro (`IntersectionObserver`, eventos de scroll e teclado)
+- GPTMaker (agente de IA)
+- Google Fonts (Poppins e Fredoka)
 
-## 🛠️ Tecnologias
+## Como rodar localmente
 
-### Frontend
-- **HTML5** - Estrutura semântica e acessível
-- **CSS3** - Estilização moderna com Flexbox/Grid
-  - Variáveis CSS customizáveis
-  - Design responsivo mobile-first
-  - Animações e transições suaves
-- **JavaScript Vanilla** - Interatividade sem dependências
-  - Menu responsivo
-  - Navegação suave
-  - FAQ acordeão
-  - Integração WhatsApp
-
-### Inteligência Artificial
-- **GPTMaker AI** - Agente conversacional inteligente
-  - Atendimento automatizado 
-  - Respostas contextuais sobre serviços
-  - Interface flutuante não-intrusiva
-
-### Recursos Externos
-- **Unsplash** - Imagens de alta qualidade
-- **Google Fonts** - Tipografia moderna (Poppins + Fredoka)
-- **Emojis** - Ícones universais e acessíveis
-
-## ⚡ Instalação
-
-### 1️⃣ Clone o Repositório
 ```bash
-git clone https://github.com/seu-usuario/patinhas-petshop.git
-cd patinhas-petshop
+git clone https://github.com/josealbertodeev/petshop-com-agente.git
+cd petshop-com-agente
 ```
 
-### 2️⃣ Abra o Projeto
-```bash
-# Opção 1: Servidor simples com Python
-python -m http.server 8000
+Abra o `index.html` no navegador ou use a extensão Live Server do VS Code.
 
-# Opção 2: Servidor simples com Node.js
-npx serve .
-
-# Opção 3: Live Server (VS Code)
-# Use a extensão Live Server no VS Code
-```
-
-### 3️⃣ Acesse no Navegador
-```
-http://localhost:8000
-```
-
-## 🎨 Personalização
-
-### Cores e Estilo
-Todas as cores estão centralizadas em variáveis CSS no início do arquivo `style.css`:
-
-```css
-:root {
-    --cor-primaria: #2196f3;
-    --cor-secundaria: #ff9800;
-    --cor-acento: #4caf50;
-    /* ... */
-}
-```
-
-### WhatsApp
-Configure seu número no arquivo `script.js`:
-
-```javascript
-const WHATSAPP_NUMBER = '5511987654321';
-const WHATSAPP_MESSAGE = 'Olá! Gostaria de agendar um serviço para meu pet.';
-```
-
-## 📁 Estrutura do Projeto
+## Estrutura
 
 ```
-patinhas-petshop/
-├── 📄 index.html          # Página principal
-├── 🎨 style.css           # Estilos CSS
-├── ⚡ script.js          # JavaScript
-└── 📖 README.md          # Documentação
+petshop-com-agente/
+├── index.html
+├── style.css
+└── script.js
 ```
 
-## 📱 Responsividade
+## Próximos passos
 
-O site é totalmente responsivo e foi testado em:
+- Botão flutuante do WhatsApp com mensagem pré-preenchida
+- Formulário de agendamento
+- Imagens servidas localmente em WebP
 
-- 📱 **Mobile** - 320px até 768px
-- 📟 **Tablet** - 768px até 1024px
-- 💻 **Desktop** - 1024px até 1920px+
-- 🖥️ **Ultrawide** - 1920px+
+## Aviso
 
-## 🤝 Como Contribuir
+O Patinhas Pet Shop & Vet, os depoimentos, o endereço e os contatos são fictícios. As fotos são do [Unsplash](https://unsplash.com).
 
-1. Faça um fork do projeto
-2. Crie uma branch para sua feature (`git checkout -b feature/nova-feature`)
-3. Commit suas mudanças (`git commit -m 'Adiciona nova feature'`)
-4. Push para a branch (`git push origin feature/nova-feature`)
-5. Abra um Pull Request
+## Autor
 
----
-
-Acesse o projeto aqui [Link](https://petshop-com-agente.vercel.app/)
-
-<div align="center">
-
-**⭐ Se este projeto foi útil para você, considere dar uma estrela!**
-
-</div>
+**José Alberto**: [LinkedIn](https://www.linkedin.com/in/josealbertofarias/) · [Portfólio](https://josealbertodeev.github.io/portfolio/)
